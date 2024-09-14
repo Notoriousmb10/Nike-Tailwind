@@ -6,7 +6,7 @@ const SpecialOffer = () => {
     <section
       className="flex justify-wrap items-center 
     max-xl:flex-col-reverse max-container
-    gap-10"
+    gap-10 max-sm:text-center"
     >
       <div className="flex flex-1 lg:max-w-lg flex-col">
         <img src={offer} alt="offer" width={773} height={687} />
@@ -19,7 +19,7 @@ const SpecialOffer = () => {
           Unlock unbeatable savings with up to 50% off on select Nike footwear
           and apparel. Grab your favorite styles before they're gone, and enjoy
           free shipping on all orders. Elevate your game with premium gear at
-          incredible prices. Don't miss out—shop now and score big!
+          incredible prices. Don't miss out—shop now!
         </p>
         <div className="mt-10 flex gap-4">
           <Button label="View Details" imgURL={""} />

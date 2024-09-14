@@ -4,7 +4,7 @@ import {services} from "../constants"
 const Services = (imgURL, label, subtext) => {
   return (
    <section className="max-container flex justify-center
-    flex-wrap gap-9">
+    flex-wrap gap-9 max-sm:flex-col">
     {services.map((service)=> (
           <Card key={service.label} {...service}/>
         ))}

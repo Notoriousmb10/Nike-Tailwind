@@ -49,7 +49,7 @@ const Footer = () => {
                     leading-normal hover:text-slate-gray cursor-pointer"
                     key={link.name}
                   >
-                    <a>{link.name}</a>
+                    <a href="mailto:yashbhingarde9@gmail.com">{link.name}</a>
                   </li>
                 ))}
               </ul>
